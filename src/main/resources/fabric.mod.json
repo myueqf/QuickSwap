@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "swapinventory",
+  "version": "${version}",
+  "name": "SwapInventory",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/swapinventory/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.github.myueqf.SwapInventory.client.mainClient"
+    ],
+    "main": [
+      "io.github.myueqf.SwapInventory.main"
+    ]
+  },
+  "mixins": [
+    "swapinventory.mixins.json",
+    {
+      "config": "swapinventory.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "*"
+  }
+}
