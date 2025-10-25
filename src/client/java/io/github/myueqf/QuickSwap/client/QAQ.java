@@ -1,10 +1,9 @@
-package io.github.myueqf.SwapInventory.client;
+package io.github.myueqf.QuickSwap.client;
 
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
 import net.minecraft.client.option.KeyBinding;
 import net.minecraft.client.util.InputUtil;
-import net.minecraft.item.ItemStack;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.screen.slot.SlotActionType;
 import org.lwjgl.glfw.GLFW;

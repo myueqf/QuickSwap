@@ -14,7 +14,7 @@ loom {
     splitEnvironmentSourceSets()
 
     mods {
-        "swapinventory" {
+        "quickswap" {
             sourceSet sourceSets.main
             sourceSet sourceSets.client
         }

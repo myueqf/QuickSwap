@@ -1,4 +1,4 @@
-package io.github.myueqf.SwapInventory;
+package io.github.myueqf.QuickSwap;
 
 import net.fabricmc.api.ModInitializer;
 

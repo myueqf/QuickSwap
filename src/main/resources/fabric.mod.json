@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "swapinventory",
+  "id": "quickswap",
   "version": "${version}",
-  "name": "SwapInventory",
+  "name": "QuickSwap",
   "description": "Quickly swap your inventory and hotbar using a configurable keybind. ",
   "authors": ["lanzhan5656"],
   "contact": {
@@ -10,14 +10,14 @@
     "issues": "https://github.com/myueqf/SwapInventory/issues"
   },
   "license": "Apache License 2.0",
-  "icon": "assets/swapinventory/icon.png",
+  "icon": "assets/quickswap/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
-      "io.github.myueqf.SwapInventory.client.mainClient"
+      "io.github.myueqf.QuickSwap.client.mainClient"
     ],
     "main": [
-      "io.github.myueqf.SwapInventory.main"
+      "io.github.myueqf.QuickSwap.main"
     ]
   },
   "depends": {
