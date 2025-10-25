@@ -3,9 +3,12 @@
   "id": "swapinventory",
   "version": "${version}",
   "name": "SwapInventory",
-  "description": "",
-  "authors": [],
-  "contact": {},
+  "description": "Quickly swap your inventory and hotbar using a configurable keybind. ",
+  "authors": ["lanzhan5656"],
+  "contact": {
+    "sources": "https://github.com/myueqf/SwapInventory",
+    "issues": "https://github.com/myueqf/SwapInventory/issues"
+  },
   "license": "All-Rights-Reserved",
   "icon": "assets/swapinventory/icon.png",
   "environment": "client",
@@ -27,6 +30,7 @@
   "depends": {
     "fabricloader": "*",
     "fabric": "*",
-    "minecraft": "*"
+    "minecraft": ">=1.17",
+    "java": ">=21"
   }
 }
