@@ -9,7 +9,7 @@
     "sources": "https://github.com/myueqf/SwapInventory",
     "issues": "https://github.com/myueqf/SwapInventory/issues"
   },
-  "license": "All-Rights-Reserved",
+  "license": "Apache License 2.0",
   "icon": "assets/swapinventory/icon.png",
   "environment": "client",
   "entrypoints": {
