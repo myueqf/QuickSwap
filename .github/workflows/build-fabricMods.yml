@@ -30,7 +30,8 @@ jobs:
           cache: 'gradle'
 
       - name: 开始编译～
-        run: ./gradlew build
+        run: |
+          ./gradlew build
           echo =================
           echo GITHUB_REF
           echo =================
