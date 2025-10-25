@@ -32,7 +32,7 @@ jobs:
       - name: 开始编译～
         run: |
           AWA=${GITHUB_REF#refs/tags/}
-          sed -i "s/QAQ/${AWA}/g" gradle.properties
+          sed -i "s|QAQ|${AWA}|g" gradle.properties
           ./gradlew build
           echo =================
           echo $AWA
