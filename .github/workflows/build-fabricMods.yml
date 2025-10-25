@@ -31,6 +31,9 @@ jobs:
 
       - name: 开始编译～
         run: ./gradlew build
+          echo =================
+          echo GITHUB_REF
+          echo =================
 
       - name: 上传JAR文件～
         uses: actions/upload-artifact@v4
