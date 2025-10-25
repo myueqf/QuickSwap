@@ -20,17 +20,10 @@
       "io.github.myueqf.SwapInventory.main"
     ]
   },
-  "mixins": [
-    "swapinventory.mixins.json",
-    {
-      "config": "swapinventory.client.mixins.json",
-      "environment": "client"
-    }
-  ],
   "depends": {
     "fabricloader": "*",
     "fabric": "*",
     "minecraft": ">=1.17",
-    "java": ">=21"
+    "java": ">=17"
   }
 }
