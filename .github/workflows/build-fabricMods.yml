@@ -36,12 +36,12 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: fabric-mod-jar
-          path: build/libs/!(*-sources).jar
+          path: build/libs/*.jar
           retention-days: 7
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          files: build/libs/!(*-sources).jar
+          files: build/libs/*.jar
           generate_release_notes: true
