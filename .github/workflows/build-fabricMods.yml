@@ -33,7 +33,7 @@ jobs:
         run: |
           ./gradlew build
           echo =================
-          echo GITHUB_REF
+          echo $GITHUB_REF
           echo =================
 
       - name: 上传JAR文件～
