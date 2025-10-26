@@ -46,6 +46,12 @@ jobs:
           path: build/libs/*.jar
           retention-days: 7
 
+      - name: 删除多余文件_(:з」∠)_
+        run: |
+          AWA=$(echo "$GITHUB_REF" | sed -E 's#^refs/(heads|tags)/##')
+          echo $AWA
+          rm -f build/libs/*-$AWA-sources.jar
+
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         if: startsWith(github.ref, 'refs/tags/')
