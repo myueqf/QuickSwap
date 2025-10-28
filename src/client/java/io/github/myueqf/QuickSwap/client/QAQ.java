@@ -25,7 +25,7 @@ public class QAQ {
                 "key.SwapInventory.QAQ",
                 InputUtil.Type.KEYSYM,
                 GLFW.GLFW_KEY_TAB,
-                "key.categories.inventory"
+                KeyBinding.Category.INVENTORY
         ));
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
             while (swapKeybind.wasPressed()) {
