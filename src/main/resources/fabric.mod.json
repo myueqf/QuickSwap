@@ -6,8 +6,8 @@
   "description": "Quickly swap your inventory and hotbar using a configurable keybind. ",
   "authors": ["lanzhan5656"],
   "contact": {
-    "sources": "https://github.com/myueqf/SwapInventory",
-    "issues": "https://github.com/myueqf/SwapInventory/issues"
+    "sources": "https://github.com/myueqf/QuickSwap",
+    "issues": "https://github.com/myueqf/QuickSwap/issues"
   },
   "license": "Apache License 2.0",
   "icon": "assets/quickswap/icon.png",
