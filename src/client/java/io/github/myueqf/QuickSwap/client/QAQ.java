@@ -10,6 +10,11 @@ import org.lwjgl.glfw.GLFW;
 // import net.minecraft.text.Text;
 
 /**
+ *   ╱|、
+ * (˚ˎ 。7
+ * |、˜ 〵
+ * じしˍ,)ノ
+ * ===========================================
  * 9-35: 主背包(main inventory)
  * 其中 9-17: 第一行, 18-26: 第二行, 27-35: 第三行
  * 36-44: 物品栏(hotbar)
